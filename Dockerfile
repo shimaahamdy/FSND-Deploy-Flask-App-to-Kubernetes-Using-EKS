@@ -7,8 +7,6 @@ WORKDIR /app
 
 #installations
 RUN pip install --upgrade pip
-RUN pip uninstall JWT
-Run pip uninstall PyJWT
 RUN pip install -r requirements.txt
 
 #entrypoint run main app using the Gunicorn WSGI server.
