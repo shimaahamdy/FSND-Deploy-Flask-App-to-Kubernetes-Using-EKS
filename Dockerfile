@@ -11,3 +11,5 @@ RUN pip install -r requirements.txt
 
 #entrypoint run main app using the Gunicorn WSGI server.
 ENTRYPOINT ["gunicorn", "-b", ":8080", "main:APP"]
+
+#comment to test piplines
